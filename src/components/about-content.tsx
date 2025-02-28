@@ -42,17 +42,26 @@ const highlights = [
   },
 ]
 
-// Função para separar o valor numérico do sufixo (ex.: "10+" vira { num: 10, suffix: "+" })
-function parseStatValue(value) {
-  const num = parseInt(value, 10)
+type StatValue = {
+  num: number;
+  suffix: string;
+};
+
+function parseStatValue(value: string): StatValue {
+  const num = Number.parseInt(value, 10)
   const suffix = value.replace(num.toString(), "")
   return { num, suffix }
 }
 
-// Componente que anima a contagem somente quando o elemento estiver visível
-function CountUp({ target, suffix = "", duration = 1.5 }) {
+type CountUpProps = {
+  target: number;
+  suffix?: string;
+  duration?: number;
+};
+
+function CountUp({ target, suffix = "", duration = 1.5 }: CountUpProps) {
   const [count, setCount] = useState(0)
-  const ref = useRef(null)
+  const ref = useRef<HTMLSpanElement>(null)
   const isInView = useInView(ref, { once: true })
 
   useEffect(() => {
