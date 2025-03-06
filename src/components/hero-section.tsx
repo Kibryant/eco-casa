@@ -76,7 +76,7 @@ export function HeroSection() {
             className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Button size="lg" className="text-lg px-8 py-6 rounded-full bg-primary hover:bg-primary/90">
-              Explore Produtos
+              Falar no WhatsApp
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button
