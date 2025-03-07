@@ -23,13 +23,13 @@ export function HeroSection() {
           y: scrollY * 0.5,
         }}
       >
-        {/* <Image
-          src="/placeholder.svg?height=1080&width=1920"
+        <Image
+          src="/background-header.png?height=1080&width=1920"
           alt="Luxury interior with sustainable materials"
           fill
           className="object-cover"
           priority
-        /> */}
+        />
         <div className="absolute inset-0 bg-black/30 backdrop-blur-[2px]" />
       </motion.div>
 
