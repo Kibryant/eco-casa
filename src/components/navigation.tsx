@@ -32,7 +32,7 @@ export function Navigation() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       <nav
-        className={`container mx-auto px-4 h-24 flex items-center justify-between transition-all duration-300 ${
+        className={`px-4 h-24 flex items-center justify-between transition-all duration-300 ${
           isScrolled ? "bg-background/80 backdrop-blur-md shadow-sm" : ""
         }`}
       >
