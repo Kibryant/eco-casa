@@ -25,7 +25,7 @@ export function Navigation() {
   const menuItems = [
     { id: "home", label: "Início", href: "/" },
     { id: "products", label: "Produtos", href: "/products" },
-    { id: "about", label: "Quem Somos", href: "/about" },
+    { id: "about", label: "Quem Somos", href: "/quem-somos" },
     { id: "cases", label: "Cases Eco Casa", href: "/cases" },
   ]
 
