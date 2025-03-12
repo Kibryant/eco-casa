@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Lightbulb, Award, Medal } from "lucide-react";
 import { CountUp } from "./count-up";
 import { parseStatValue } from "@/functions/parse-stat-value";
-import Image from "next/image"
+import Image from "next/image";
 
 const stats = [
 	{
@@ -56,14 +56,12 @@ export function AboutContent() {
 						className="order-2 lg:order-1"
 					>
 						<div className="relative h-[600px] rounded-lg overflow-hidden">
-							
-              <Image
-                src="/about-image.jpg"
-                alt="Arquitetura moderna e sustentável"
-                fill
-                className="object-cover"
-              />
-             
+							<Image
+								src="/about-image.jpg"
+								alt="Arquitetura moderna e sustentável"
+								fill
+								className="object-cover"
+							/>
 						</div>
 					</motion.div>
 
@@ -142,7 +140,7 @@ export function AboutContent() {
 								sustentabilidade e a excelência
 							</p>
 						</motion.div>
-                        
+
 						<div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
 							{stats.map((stat, index) => {
 								const { num, suffix } = parseStatValue(stat.value);

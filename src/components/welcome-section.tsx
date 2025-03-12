@@ -46,14 +46,6 @@ export function WelcomeSection() {
 							perfeitamente ao seu espaço, proporcionando um ambiente acolhedor
 							e eficiente.
 						</p>
-
-						<Button
-							variant="default"
-							size="lg"
-							className="bg-primary hover:bg-primary/90"
-						>
-							SABER MAIS
-						</Button>
 					</motion.div>
 
 					<motion.div
