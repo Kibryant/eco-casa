@@ -5,14 +5,13 @@ import { HeroSection } from "@/components/hero-section";
 import { WhatsappBanner } from "@/components/whatsapp-banner";
 
 export default function Home() {
-  return (
-    <main className="flex flex-col min-h-screen">
-      <HeroSection />
-      <CategoryNav />
-      <WhatsappBanner />
-      <FeaturedProducts />
-      <Banner />
-    </main>
-  )
+	return (
+		<main className="flex flex-col min-h-screen">
+			<HeroSection />
+			<CategoryNav />
+			<Banner />
+			<FeaturedProducts />
+			<WhatsappBanner />
+		</main>
+	);
 }
-
