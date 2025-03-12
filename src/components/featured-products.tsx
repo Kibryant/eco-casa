@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { ShoppingCart, Star } from "lucide-react"
+import { ArrowRight, ShoppingCart, Star } from "lucide-react"
 
 const featuredProducts = [
   {
@@ -103,16 +103,9 @@ export function FeaturedProducts() {
 
                 <h3 className="font-medium mb-2 line-clamp-2 h-12">{product.name}</h3>
 
-                <div className="flex items-baseline mb-4">
-                  <span className="text-lg font-bold">{product.price}</span>
-                  {product.originalPrice && (
-                    <span className="ml-2 text-sm text-muted-foreground line-through">{product.originalPrice}</span>
-                  )}
-                </div>
-
-                <Button className="w-full gap-2">
-                  <ShoppingCart className="h-4 w-4" />
-                  Adicionar
+                <Button className="flex flex-row w-full gap-2 justify-center items-center" variant="secondary" size="default">
+                    Conhecer mais
+                    <ArrowRight className="h-5 w-5" />
                 </Button>
               </div>
             </motion.div>

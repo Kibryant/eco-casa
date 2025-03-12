@@ -48,7 +48,7 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section className="relative h-[85vh] min-h-[600px] pt-24 overflow-hidden">
+    <section className="relative h-screen min-h-[600px] pt-24 overflow-hidden">
       {heroProducts.map((product, index) => (
         <motion.div
           key={product.id}

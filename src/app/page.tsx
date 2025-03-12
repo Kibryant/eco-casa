@@ -1,3 +1,4 @@
+import { Banner } from "@/components/banner";
 import { FeaturedProducts } from "@/components/featured-products";
 import { HeroSection } from "@/components/hero-section";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <main className="flex flex-col min-h-screen">
       <HeroSection />
       <FeaturedProducts />
+      <Banner />
     </main>
   )
 }
