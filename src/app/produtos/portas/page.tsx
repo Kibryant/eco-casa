@@ -9,7 +9,7 @@ export default function PortasPage() {
   const categoryData = {
     title: "Portas Ecológicas",
     description: "Elegância e sustentabilidade para entradas e ambientes internos",
-    image: "/placeholder.svg?height=1080&width=1920",
+    image: "/background-header-portas.jpg?height=1080&width=1920",
     summary: {
       title: "Portas que Unem Design e Consciência Ambiental",
       description:
@@ -20,7 +20,7 @@ export default function PortasPage() {
         "Isolamento térmico e acústico",
         "Designs exclusivos e personalizáveis",
       ],
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/background-header-portas.jpg?height=600&width=800",
     },
     advantages: [
       {

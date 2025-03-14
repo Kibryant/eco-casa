@@ -3,8 +3,7 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Check } from "lucide-react"
+import { Check } from "lucide-react"
 
 interface Product {
   id: number
@@ -73,11 +72,6 @@ export function CategoryProducts({ products }: CategoryProductsProps) {
                     </div>
                   ))}
                 </div>
-
-                <Button variant="outline" className="w-full gap-2 hover:bg-primary hover:text-white">
-                  Ver Detalhes
-                  <ArrowRight className="h-4 w-4" />
-                </Button>
               </div>
             </motion.div>
           ))}

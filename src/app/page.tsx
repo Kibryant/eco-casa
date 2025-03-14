@@ -2,6 +2,7 @@ import { Banner } from "@/components/banner";
 import { CategoryNav } from "@/components/category-nav";
 import { FeaturedProducts } from "@/components/featured-products";
 import { HeroSection } from "@/components/hero-section";
+import { PartnersSection } from "@/components/partners-section";
 import { WhatsappBanner } from "@/components/whatsapp-banner";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
 			<Banner />
 			<FeaturedProducts />
 			<WhatsappBanner />
+            <PartnersSection />
 		</main>
 	);
 }
