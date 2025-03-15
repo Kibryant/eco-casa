@@ -31,6 +31,7 @@ export function Navigation() {
     { id: "pedras", label: "Pedras", href: "/produtos/pedras" },
     { id: "pisos", label: "Pisos", href: "/produtos/pisos" },
     { id: "piscinas", label: "Piscinas", href: "/produtos/piscinas" },
+    { id: "biombosedivisorias", label: "Biombos e Divisórias", href: "/produtos/biombos-divisorias" },
   ]
 
   const menuItems = [

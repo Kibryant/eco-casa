@@ -148,7 +148,7 @@ export function HeroSection() {
 								<Link href={product.link}>
 									<Button
 										size="lg"
-										className="rounded-md py-6 text-lg gap-2 border border-primary hover:bg-primary/90"
+										className="rounded-md py-6 text-lg gap-2 border border-primary hover:border-primary/90 flex items-center"
 										asChild
 									>
 										<ShoppingBag className="h-5 w-5" />

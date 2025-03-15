@@ -184,6 +184,21 @@ export function Banner() {
 								</motion.div>
 
                                 <motion.div
+									className="absolute bottom-20 -left-12 bg-white text-primary text-sm font-bold px-3 py-1 rounded-full"
+									animate={{
+										y: [0, 5, 0],
+									}}
+									transition={{
+										duration: 2,
+										repeat: Number.POSITIVE_INFINITY,
+										repeatType: "reverse",
+										delay: 0.5,
+									}}
+								>
+                                    50+ Prêmios
+								</motion.div>
+
+                                <motion.div
 									className="absolute top-20 -right-24 bg-secondary text-white text-sm font-bold px-3 py-1 rounded-full"
 									animate={{
 										y: [0, -5, 0],
