@@ -216,18 +216,19 @@ export function NewsletterForm() {
 						animate={{ opacity: 1, scale: 1 }}
 						className="bg-primary/10 rounded-xl p-8 text-center"
 					>
-						<div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-6">
-							<Check className="h-8 w-8 text-primary" />
+						<div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-6">
+							<Check className="h-8 w-8 text-white" />
 						</div>
-						<h3 className="text-2xl font-bold mb-4">Inscrição Confirmada!</h3>
-						<p className="text-muted-foreground mb-6">
+						<h3 className="text-white text-2xl font-bold mb-4">Inscrição Confirmada!</h3>
+						<p className="text-white mb-6">
 							Obrigado por se inscrever em nossa newsletter. Em breve você
 							começará a receber nossas novidades e conteúdos exclusivos.
 						</p>
 						<Button
+							size="lg"
 							variant="outline"
 							onClick={() => setIsSubmitted(false)}
-							className="mx-auto"
+							className="mx-auto text-white border-white hover:bg-white hover:text-primary"
 						>
 							Fazer nova inscrição
 						</Button>

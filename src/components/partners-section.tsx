@@ -28,7 +28,7 @@ const partners = [
 	{
 		id: 4,
 		name: "Lesco",
-		logo: "/4.png?height=400&width=400",
+		logo: "/4.jpg?height=400&width=400",
 		instagram: "https://www.instagram.com/lesco_br",
 	},
 	{
@@ -49,6 +49,30 @@ const partners = [
 		logo: "/7.png?height=400&width=400",
 		instagram: "https://www.instagram.com/tijox.oficial",
 	},
+    {
+        id: 8,
+        name: "Eliane Revestimentos",
+        logo: "/8.jpg?height=400&width=400",
+        instagram: "https://www.instagram.com/elianerevestimentos",
+    },
+    {
+        id: 9,
+        name: "Aquaplás",
+        logo: "/9.jpg?height=400&width=400",
+        instagram: "https://www.instagram.com/aquaplasbr",
+    },
+    {
+        id: 10,
+        name: "Igui",
+        logo: "/10.jpg?height=400&width=400",
+        instagram: "https://www.instagram.com/iguioficial",
+    },
+    {
+        id: 11,
+        name: "Villagres",
+        logo: "/11.jpg?height=400&width=400",
+        instagram: "https://www.instagram.com/villagres",
+    },
 ];
 
 export function PartnersSection() {

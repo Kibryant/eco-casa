@@ -2,9 +2,10 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ShoppingCart, Star } from "lucide-react";
+import { Star } from "lucide-react";
+
+const whatsappNumber = "5573982135734";
 
 const featuredProducts = [
 	{
@@ -44,7 +45,10 @@ const featuredProducts = [
 		reviews: 78,
 		tag: "Exclusivo",
 	},
-];
+].map((product) => ({
+	...product,
+	link: `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(`Olá, eu quero saber mais sobre a ${product.name}!`)}`,
+}));
 
 export function FeaturedProducts() {
 	return (
@@ -124,14 +128,18 @@ export function FeaturedProducts() {
 									{product.name}
 								</h3>
 
-								<Button
-									className="flex flex-row w-full gap-2 justify-center items-center"
-									variant="secondary"
-									size="default"
+								<a
+									href={product.link}
+									target="_blank"
+									rel="noopener noreferrer"
 								>
-									Conhecer mais
-									<ArrowRight className="h-5 w-5" />
-								</Button>
+									<Button
+										className="flex flex-row w-full gap-2 justify-center items-center bg-primary text-white hover:bg-primary/90"
+										size="default"
+									>
+										Conhecer mais
+									</Button>
+								</a>
 							</div>
 						</motion.div>
 					))}
