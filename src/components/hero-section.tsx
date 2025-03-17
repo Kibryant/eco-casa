@@ -24,19 +24,9 @@ const heroProducts = [
 		subtitle: "Beleza que Preserva",
 		description:
 			"Transforme seu ambiente com revestimentos que respeitam a natureza",
-		image: "/background-header-portas-first-page.jpg?height=1080&width=1920",
+		image: "/background-header-revestimentos.webp?height=1080&width=1920",
 		cta: "Explorar",
 		link: "/produtos/revestimentos",
-	},
-	{
-		id: 3,
-		title: "Pisos Sustentáveis",
-		subtitle: "Conforto Ecológico",
-		description:
-			"Pisos duráveis e ecológicos para todos os ambientes da sua casa",
-		image: "/background-header-pisos-first-page.jpg?height=1080&width=1920",
-		cta: "Descobrir",
-		link: "/produtos/pisos",
 	},
 ];
 

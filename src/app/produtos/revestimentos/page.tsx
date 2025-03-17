@@ -10,7 +10,7 @@ export default function RevestimentosPage() {
   const categoryData = {
     title: "Revestimentos Ecológicos",
     description: "Transforme seus ambientes com texturas e materiais sustentáveis",
-    image: "/placeholder.svg?height=1080&width=1920",
+    image: "/background-header-revestimentos.webp?height=600&width=1920",
     summary: {
       title: "Revestimentos que Respeitam o Planeta",
       description:
@@ -21,7 +21,7 @@ export default function RevestimentosPage() {
         "Fácil instalação e manutenção",
         "Propriedades térmicas e acústicas",
       ],
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/background-header-revestimentos.webp?height=600&width=800",
     },
     advantages: [
       {
@@ -50,28 +50,28 @@ export default function RevestimentosPage() {
         id: 1,
         name: "Revestimento 3D Sustentável",
         description: "Painéis tridimensionais que criam efeitos visuais impressionantes",
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/revestimento-1.webp?height=600&width=600",
         features: ["Efeito 3D", "Instalação modular", "Tratamento anti-chamas"],
       },
       {
         id: 2,
         name: "Revestimento de Fibras Naturais",
         description: "Composto de fibras de coco, sisal e outras matérias-primas renováveis",
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/revestimento-2.webp?height=600&width=600",
         features: ["100% natural", "Propriedades acústicas", "Textura orgânica"],
       },
       {
         id: 3,
         name: "Revestimento de Madeira Reciclada",
         description: "Painéis produzidos com madeira de demolição e reaproveitamento",
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/revestimento-3.webp?height=600&width=600",
         features: ["Aparência vintage", "História única", "Baixo impacto ambiental"],
       },
       {
         id: 4,
         name: "Revestimento Mineral Ecológico",
         description: "Composto de minerais naturais com acabamento contemporâneo",
-        image: "/placeholder.svg?height=600&width=600",
+        image: "/revestimento-4.webp?height=600&width=600",
         features: ["Resistente à umidade", "Antimofo", "Diversas texturas"],
       },
     ],

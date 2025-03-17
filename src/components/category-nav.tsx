@@ -26,7 +26,7 @@ const categories = [
     id: 3,
     title: "Revestimentos Naturais",
     description: "Texturas que transformam ambientes",
-    image: "/placeholder.svg?height=600&width=800",
+    image: "/background-header-revestimentos.webp?height=600&width=800",
     link: "/produtos/revestimentos",
     color: "from-teal-800/80 to-teal-900/80",
   },
