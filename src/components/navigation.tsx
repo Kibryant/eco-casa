@@ -43,6 +43,7 @@ export function Navigation() {
       dropdownItems: productCategories,
     },
     { id: "about", label: "Quem Somos", href: "/quem-somos" },
+    { id: "cases", label: "Cases Ecu Casa", href: "/cases" },
   ]
 
   return (

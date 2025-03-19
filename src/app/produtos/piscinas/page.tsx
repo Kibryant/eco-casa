@@ -99,27 +99,19 @@ export default function PiscinasPage() {
 		portfolio: [
 			{
 				id: 1,
-				title: "Piscina Natural Residencial",
+				title: "Pétra",
 				description:
-					"Projeto de piscina biológica integrada ao paisagismo de residência de alto padrão",
-				image: "/placeholder.svg?height=600&width=800",
-				location: "Jurerê Internacional, SC",
+					"O Pétra é um empreendimento projetado pela Construtora Almeida Carneiro com foco na integração entre arquitetura, funcionalidade e paisagem. Localizado à beira-mar, o projeto combina técnicas arquitetônicas e materiais pensados para proporcionar conforto e elegância aos moradores.",
+				image: "/background-header-revestimentos.webp?height=600&width=800",
+				location: "Ilhéus, BA",
 			},
 			{
 				id: 2,
-				title: "Spa Ecológico Resort",
+				title: "Farani 221",
 				description:
-					"Sistema de piscinas naturais para área de bem-estar de resort sustentável",
-				image: "/placeholder.svg?height=600&width=800",
-				location: "Praia Brava, Itajaí",
-			},
-			{
-				id: 3,
-				title: "Condomínio Green Living",
-				description:
-					"Piscina comunitária com sistema híbrido de filtragem para condomínio sustentável",
-				image: "/placeholder.svg?height=600&width=800",
-				location: "Balneário Camboriú, SC",
+					"O Farani 221 representa o ápice da arquitetura de luxo, um projeto da renomada grife Almeida Carneiro que se destaca por sua localização privilegiada e acabamentos impecáveis. Cada detalhe deste empreendimento foi cuidadosamente planejado para oferecer uma experiência única de conforto e sofisticação, refletindo um estilo de vida que combina tradição e inovação.",
+				image: "/farani.jpg?height=600&width=800",
+				location: "Ilhéus, BA",
 			},
 		],
 	};

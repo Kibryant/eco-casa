@@ -12,7 +12,7 @@ const featuredProducts = [
 		id: 1,
 		name: "Porta Ecológica Modelo Viena",
 		price: "R$ 1.299,00",
-		image: "/placeholder.svg?height=600&width=600",
+		image: "/porta-1.jpg?height=600&width=600",
 		rating: 4.8,
 		reviews: 124,
 		tag: "Mais Vendido",
@@ -22,25 +22,25 @@ const featuredProducts = [
 		name: "Revestimento Sustentável Bambu",
 		price: "R$ 189,90",
 		originalPrice: "R$ 249,90",
-		image: "/placeholder.svg?height=600&width=600",
+		image: "/revestimento-1.webp?height=600&width=600",
 		rating: 4.9,
 		reviews: 86,
 		tag: "Oferta",
 	},
 	{
 		id: 3,
-		name: "Painel Decorativo Ecológico",
+		name: "Biombo de Madeira Ecológica",
 		price: "R$ 399,00",
-		image: "/placeholder.svg?height=600&width=600",
+		image: "/biombo-1.png?height=600&width=600",
 		rating: 4.7,
 		reviews: 53,
 		tag: "Novo",
 	},
 	{
 		id: 4,
-		name: "Piso Sustentável Natural",
+		name: "Deck de Madeira Ecológico",
 		price: "R$ 129,90",
-		image: "/placeholder.svg?height=600&width=600",
+		image: "/deck-1.webp?height=600&width=600",
 		rating: 4.6,
 		reviews: 78,
 		tag: "Exclusivo",
@@ -103,7 +103,7 @@ export function FeaturedProducts() {
 
 							<div className="relative h-64 overflow-hidden">
 								<Image
-									src={"/placeholder.jpg"}
+									src={product.image}
 									alt={product.name}
 									fill
 									className="object-cover transition-transform duration-300 group-hover:scale-105"

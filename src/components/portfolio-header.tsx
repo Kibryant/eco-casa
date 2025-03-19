@@ -2,16 +2,15 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import { Button } from "./ui/button";
 
-export function StartSection() {
+export function PortfolioHeader() {
 	return (
-		<section className="relative h-[70vh] min-h-[500px] pt-24 overflow-hidden">
-			{/* Background Image */}
+		<section className="relative h-[60vh] min-h-[400px] pt-24 overflow-hidden">
 			<div className="absolute inset-0 z-0">
 				<Image
-					src="/background-header.png"
-					alt="Quem Somos - Eco Casa"
+					src="/petra-1.webp?height=1080&width=1920"
+					alt="Projetos Eco Casa"
 					fill
 					className="object-cover"
 					priority
@@ -19,7 +18,6 @@ export function StartSection() {
 				<div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-transparent" />
 			</div>
 
-			{/* Content */}
 			<div className="container mx-auto px-4 h-full relative z-10">
 				<div className="flex flex-col justify-center h-full max-w-2xl">
 					<motion.div
@@ -34,7 +32,7 @@ export function StartSection() {
 							animate={{ opacity: 1, x: 0 }}
 							transition={{ duration: 0.6, delay: 0.2 }}
 						>
-							CONHEÇA NOSSA HISTÓRIA
+							NOSSO PORTFÓLIO
 						</motion.span>
 
 						<motion.h1
@@ -43,7 +41,7 @@ export function StartSection() {
 							animate={{ opacity: 1, y: 0 }}
 							transition={{ duration: 0.6, delay: 0.3 }}
 						>
-							Quem Somos
+							Projetos que Inspiram
 						</motion.h1>
 
 						<motion.p
@@ -52,8 +50,8 @@ export function StartSection() {
 							animate={{ opacity: 1, y: 0 }}
 							transition={{ duration: 0.6, delay: 0.4 }}
 						>
-							Transformando espaços com soluções sustentáveis e design inovador
-							há mais de 2 anos!
+							Conheça nossa trajetória de excelência em projetos sustentáveis
+							que transformam espaços e preservam o meio ambiente.
 						</motion.p>
 
 						<motion.div

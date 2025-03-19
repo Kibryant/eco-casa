@@ -165,11 +165,11 @@ export function Banner() {
 										repeatType: "reverse",
 									}}
 								>
-									14+ Anos
+									2+ Anos
 								</motion.div>
 
-								<motion.div
-									className="absolute -bottom-4 -left-4 bg-white text-primary text-sm font-bold px-3 py-1 rounded-full"
+                                <motion.div
+									className="absolute bottom-20 -left-26 bg-white text-primary text-sm font-bold px-3 py-1 rounded-full"
 									animate={{
 										y: [0, 5, 0],
 									}}
@@ -180,36 +180,7 @@ export function Banner() {
 										delay: 0.5,
 									}}
 								>
-									100+ Projetos
-								</motion.div>
-
-                                <motion.div
-									className="absolute bottom-20 -left-12 bg-white text-primary text-sm font-bold px-3 py-1 rounded-full"
-									animate={{
-										y: [0, 5, 0],
-									}}
-									transition={{
-										duration: 2,
-										repeat: Number.POSITIVE_INFINITY,
-										repeatType: "reverse",
-										delay: 0.5,
-									}}
-								>
-                                    50+ Prêmios
-								</motion.div>
-
-                                <motion.div
-									className="absolute top-20 -right-24 bg-secondary text-white text-sm font-bold px-3 py-1 rounded-full"
-									animate={{
-										y: [0, -5, 0],
-									}}
-									transition={{
-										duration: 2,
-										repeat: Number.POSITIVE_INFINITY,
-										repeatType: "reverse",
-									}}
-								>
-									300+ Clientes Satisfeitos
+                                    50+ Clientes Satisfeitos
 								</motion.div>
 							</div>
 						</div>
