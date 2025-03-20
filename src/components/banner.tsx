@@ -28,7 +28,7 @@ export function Banner() {
 						</h2>
 
 						<p className="text-xl text-white/90 mb-8 max-w-lg">
-							Há mais de 14 anos, a Eco Casa é pioneira em soluções sustentáveis
+							Há mais de 2 anos, a Eco Casa é pioneira em soluções sustentáveis
 							para construção e decoração, unindo inovação, design e compromisso
 							ambiental em cada produto.
 						</p>
@@ -91,7 +91,7 @@ export function Banner() {
 										Satisfação Garantida
 									</h3>
 									<p className="text-white/80">
-										Mais de 500 projetos realizados com 98% de clientes
+										Mais de 100 projetos realizados com 98% de clientes
 										satisfeitos
 									</p>
 								</div>
@@ -179,7 +179,7 @@ export function Banner() {
 										delay: 0.5,
 									}}
 								>
-                                    50+ Clientes Satisfeitos
+                                    100+ Clientes Satisfeitos
 								</motion.div>
 							</div>
 						</div>

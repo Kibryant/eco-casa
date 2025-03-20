@@ -83,7 +83,7 @@ export function AboutContent() {
 						</h2>
 
 						<p className="text-foreground/70 mb-8">
-							Com mais de 14 anos no mercado, nossa empresa é referência na
+							Com mais de 2 anos no mercado, nossa empresa é referência na
 							arquitetura de ambientes transformadores e na construção de um
 							mundo mais sustentável. Ao longo de nossa trajetória, buscamos
 							constantemente soluções inovadoras e ecologicamente conscientes
