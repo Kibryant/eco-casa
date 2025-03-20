@@ -10,7 +10,7 @@ export default function PiscinasPage() {
 	const categoryData = {
 		title: "Piscinas Ecológicas",
 		description:
-			"Lazer sustentável com beleza natural e baixo impacto ambiental",
+			"Lazer com beleza natural e baixo impacto ambiental",
 		image: "/background-header-piscinas.webp?height=1080&width=1920",
 		summary: {
 			title: "Piscinas que Respeitam o Meio Ambiente",
@@ -58,7 +58,7 @@ export default function PiscinasPage() {
 				image: "/piscina-1.webp?height=600&width=600",
 				features: [
 					"Zero produtos químicos",
-					"Ecossistema autossustentável",
+					"Ecossistema",
 					"Baixa manutenção",
 				],
 			},

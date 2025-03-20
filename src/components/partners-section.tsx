@@ -10,12 +10,12 @@ const partners = [
 	{
 		id: 1,
 		name: "Sincol",
-		logo: "/1.png?height=200&width=200",
+		logo: "/1.png?height=400&width=400",
 		instagram: "https://instagram.com/sincol_sa",
 	},
 	{
 		id: 2,
-		name: "Empresa Parceira 2",
+		name: "Carpiso",
 		logo: "/2.png?height=400&width=400",
 		instagram: "https://instagram.com/empresa2",
 	},
@@ -49,30 +49,6 @@ const partners = [
 		logo: "/7.png?height=400&width=400",
 		instagram: "https://www.instagram.com/tijox.oficial",
 	},
-    {
-        id: 8,
-        name: "Eliane Revestimentos",
-        logo: "/8.jpg?height=400&width=400",
-        instagram: "https://www.instagram.com/elianerevestimentos",
-    },
-    {
-        id: 9,
-        name: "Aquaplás",
-        logo: "/9.jpg?height=400&width=400",
-        instagram: "https://www.instagram.com/aquaplasbr",
-    },
-    {
-        id: 10,
-        name: "Igui",
-        logo: "/10.jpg?height=400&width=400",
-        instagram: "https://www.instagram.com/iguioficial",
-    },
-    {
-        id: 11,
-        name: "Villagres",
-        logo: "/11.jpg?height=400&width=400",
-        instagram: "https://www.instagram.com/villagres",
-    },
 ];
 
 export function PartnersSection() {
@@ -118,12 +94,12 @@ export function PartnersSection() {
 								href={partner.instagram}
 								target="_blank"
 								rel="noopener noreferrer"
-								className="block relative h-28 bg-white rounded-lg p-4 border border-gray-100 hover:border-primary/20 hover:shadow-md transition-all duration-300"
+								className="block relative h-36 bg-white rounded-lg p-4 border border-gray-100 hover:border-primary/20 hover:shadow-md transition-all duration-300"
 								aria-label={`Visite o Instagram de ${partner.name}`}
 							>
 								<div className="relative h-full w-full">
 									<Image
-										src={partner.logo || "/placeholder.svg"}
+										src={partner.logo}
 										alt={partner.name}
 										fill
 										className="object-contain"

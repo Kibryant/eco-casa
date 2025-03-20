@@ -64,7 +64,7 @@ export default function PortasPage() {
 			},
 			{
 				id: 2,
-				name: "Porta Pivotante Sustentável",
+				name: "Porta Pivotante",
 				description: "Imponente e moderna, ideal para entradas principais",
 				image: "/porta-2.jpg?height=600&width=600",
 				features: ["Giro 360°", "Altura personalizada", "Sistema anti-ruído"],

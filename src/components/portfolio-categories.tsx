@@ -27,7 +27,7 @@ const categories = [
   },
   {
     id: "hospitality",
-    name: "Hotelaria",
+    name: "Residencial",
     icon: Hotel,
     description:
       "Hotéis, pousadas e resorts com soluções sustentáveis que encantam os hóspedes e reduzem o impacto ambiental.",

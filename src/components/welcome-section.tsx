@@ -66,14 +66,6 @@ export function WelcomeSection() {
 								<div className="text-white">
 									<Building2 className="h-12 w-12 mb-2" />
 								</div>
-								<div className="text-white">
-									<span className="text-5xl font-bold">+2</span>
-									<p className="text-sm font-medium">
-										ANOS DE
-										<br />
-										EXPERIÊNCIA
-									</p>
-								</div>
 							</div>
 						</div>
 					</motion.div>

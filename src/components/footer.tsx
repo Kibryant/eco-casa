@@ -57,9 +57,7 @@ export function Footer() {
 					</div>
 
 					<p className="max-w-3xl mx-auto text-lg mb-8 text-foreground/80">
-						Especialistas em madeira ecológica e referência na arquitetura de
-						ambientes transformadores e na construção de um mundo mais
-						sustentável.
+                        Transformando sonhos com exclusividade no design criando ambientes harmoniosos com sustentabilidade que você merece.
 					</p>
 
 					<address className="text-primary mb-4 not-italic">

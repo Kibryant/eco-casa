@@ -83,7 +83,7 @@ export function AboutContent() {
 						</h2>
 
 						<p className="text-foreground/70 mb-8">
-							Com mais de 2 anos no mercado, nossa empresa é referência na
+							Com experiência de mercado, nossa empresa é referência na
 							arquitetura de ambientes transformadores e na construção de um
 							mundo mais sustentável. Ao longo de nossa trajetória, buscamos
 							constantemente soluções inovadoras e ecologicamente conscientes
@@ -117,80 +117,6 @@ export function AboutContent() {
 						</div>
 					</motion.div>
 				</div>
-
-				<motion.div
-					initial={{ opacity: 0, y: 20 }}
-					animate={{ opacity: 1, y: 0 }}
-					transition={{ duration: 0.8, delay: 0.4 }}
-					className="mt-24 py-20 bg-primary"
-				>
-					<div className="container mx-auto px-4 relative z-10">
-						<motion.div
-							initial={{ opacity: 0, y: 20 }}
-							whileInView={{ opacity: 1, y: 0 }}
-							viewport={{ once: true }}
-							transition={{ duration: 0.8 }}
-							className="text-center mb-16"
-						>
-							<h2 className="font-display text-4xl lg:text-5xl font-bold text-white mb-6">
-								Impacto em Números
-							</h2>
-							<p className="text-white/80 max-w-2xl mx-auto">
-								Conheça os resultados do nosso compromisso com a
-								sustentabilidade e a excelência
-							</p>
-						</motion.div>
-
-						<div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-							{stats.map((stat, index) => {
-								const { num, suffix } = parseStatValue(stat.value);
-
-								return (
-									<motion.div
-										key={stat.label}
-										initial={{ opacity: 0, y: 20 }}
-										whileInView={{ opacity: 1, y: 0 }}
-										viewport={{ once: true }}
-										transition={{ duration: 0.8, delay: index * 0.2 }}
-										className="relative group"
-									>
-										<div className="absolute inset-0 bg-white/5 rounded-2xl transform transition-transform duration-300 group-hover:scale-105" />
-										<div className="absolute inset-0 bg-gradient-to-br from-white/10 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-
-										<div className="relative p-8 text-center">
-											<div className="relative mx-auto mb-6 w-20 h-20">
-												<motion.div
-													animate={{
-														scale: [1, 1.1, 1],
-														opacity: [0.5, 0.8, 0.5],
-													}}
-													transition={{
-														duration: 3,
-														repeat: Number.POSITIVE_INFINITY,
-														repeatType: "reverse",
-													}}
-													className="absolute inset-0 bg-white/10 rounded-full"
-												/>
-												<div className="absolute inset-2 bg-white/10 rounded-full" />
-												<div className="absolute inset-0 flex items-center justify-center">
-													<stat.icon className="h-10 w-10 text-white" />
-												</div>
-											</div>
-
-											<div className="text-5xl font-bold text-white mb-2 flex items-center justify-center">
-												<CountUp target={num} suffix={suffix} duration={2.5} />
-											</div>
-
-											<div className="text-lg font-medium text-white mb-3">
-												{stat.label}
-											</div>
-										</div>
-									</motion.div>
-								);
-							})}
-						</div>
-					</div>
-				</motion.div>
 			</div>
 		</section>
 	);

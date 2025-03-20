@@ -59,7 +59,7 @@ export default function DecksPage() {
 			},
 			{
 				id: 2,
-				name: "Deck Modular Sustentável",
+				name: "Deck Modular",
 				description: "Sistema de encaixe para instalação rápida e versátil",
 				image: "/deck-2.webp?height=600&width=600",
 				features: [

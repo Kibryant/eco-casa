@@ -5,7 +5,7 @@ import { MapPin, Clock, Phone, Mail } from "lucide-react";
 
 const businessHours = [
 	{ day: "Segunda - Sexta", hours: "08:00 - 18:00" },
-	{ day: "Sábado", hours: "09:00 - 13:00" },
+	{ day: "Sábado", hours: "09:00 - 12:00" },
 	{ day: "Domingo", hours: "Fechado" },
 ];
 

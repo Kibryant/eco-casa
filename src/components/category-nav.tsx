@@ -16,7 +16,7 @@ const categories = [
   },
   {
     id: 2,
-    title: "Portas Sustentáveis",
+    title: "Portas",
     description: "Elegância e responsabilidade ambiental",
     image: "/background-header-portas.jpg?height=600&width=800",
     link: "/produtos/portas",

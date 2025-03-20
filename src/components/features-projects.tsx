@@ -14,7 +14,7 @@ import Link from "next/link";
 const features = [
 	{
 		icon: Lightbulb,
-		title: "Inovação Sustentável",
+		title: "Inovação",
 		description:
 			"Transformamos recursos naturais em soluções ecológicas, valorizando o ambiente.",
 	},
@@ -42,12 +42,12 @@ const projects = [
 	{
 		title: "Pétra",
 		image: "/petra-1.webp?height=400&width=600",
-		category: "Hotelaria",
+		category: "Residencial",
 	},
 	{
 		title: "Farani 221",
 		image: "/farani.jpg?height=400&width=600",
-		category: "Hotelaria",
+		category: "Residencial",
 	},
 ];
 

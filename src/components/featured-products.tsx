@@ -19,7 +19,7 @@ const featuredProducts = [
 	},
 	{
 		id: 2,
-		name: "Revestimento Sustentável Bambu",
+		name: "Revestimento Bambu",
 		price: "R$ 189,90",
 		originalPrice: "R$ 249,90",
 		image: "/revestimento-1.webp?height=600&width=600",
@@ -72,7 +72,7 @@ export function FeaturedProducts() {
 						inovadores, cuidadosamente escolhidos para transformar sua casa em
 						um ambiente mais ecológico e elegante. Cada item é projetado com
 						materiais de alta qualidade e práticas de produção responsáveis,
-						garantindo durabilidade e respeito ao meio ambiente.
+						garantindo durabilidade.
 					</p>
 				</motion.div>
 

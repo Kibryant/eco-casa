@@ -11,7 +11,7 @@ const heroProducts = [
 	{
 		id: 1,
 		title: "Portas Ecológicas",
-		subtitle: "Elegância Sustentável",
+		subtitle: "Elegância",
 		description:
 			"Portas premium feitas com madeira certificada e processos sustentáveis",
 		image: "/background-header-portas-first-page.jpg?height=1080&width=1920",

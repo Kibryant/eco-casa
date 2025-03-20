@@ -24,11 +24,11 @@ export function Banner() {
 						className="text-white"
 					>
 						<h2 className="text-4xl md:text-5xl font-display font-bold mb-6 leading-tight">
-							Eco Casa: Transformando Espaços e Preservando o Planeta
+							Eco Casa: Transformando Espaços Com Elegância e Sofisticação
 						</h2>
 
 						<p className="text-xl text-white/90 mb-8 max-w-lg">
-							Há mais de 2 anos, a Eco Casa é pioneira em soluções sustentáveis
+							A Eco Casa é pioneira em soluções sustentáveis
 							para construção e decoração, unindo inovação, design e compromisso
 							ambiental em cada produto.
 						</p>
@@ -150,7 +150,7 @@ export function Banner() {
 									Eco Casa
 								</div>
 								<div className="mt-2 text-sm bg-white/20 rounded-full py-1 px-4 inline-block text-white">
-									Inovação Sustentável
+									Inovação
 								</div>
 
 								<motion.div

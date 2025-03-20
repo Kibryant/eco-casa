@@ -17,7 +17,7 @@ export default function RevestimentosPage() {
 			description:
 				"Nossa linha de revestimentos ecológicos oferece soluções inovadoras para paredes e superfícies, combinando estética, funcionalidade e compromisso ambiental. Produzidos com materiais reciclados e naturais, nossos revestimentos transformam qualquer ambiente com texturas e acabamentos exclusivos.",
 			features: [
-				"Materiais reciclados e de origem sustentável",
+				"Materiais reciclados",
 				"Variedade de texturas e acabamentos",
 				"Fácil instalação e manutenção",
 				"Propriedades térmicas e acústicas",
@@ -53,7 +53,7 @@ export default function RevestimentosPage() {
 		products: [
 			{
 				id: 1,
-				name: "Revestimento 3D Sustentável",
+				name: "Revestimento 3D",
 				description:
 					"Painéis tridimensionais que criam efeitos visuais impressionantes",
 				image: "/revestimento-1.webp?height=600&width=600",
