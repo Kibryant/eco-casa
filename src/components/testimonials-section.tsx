@@ -87,12 +87,9 @@ export function TestimonialsSection() {
 								<div className="bg-white rounded-xl p-8 shadow-lg border border-primary/10">
 									<div className="flex items-center gap-4 mb-6">
 										<div className="relative w-16 h-16 rounded-full overflow-hidden">
-											<Image
-												src={testimonial.image || "/placeholder.svg"}
-												alt={testimonial.name}
-												fill
-												className="object-cover"
-											/>
+                                            <p className="absolute inset-0 flex items-center justify-center text-white font-semibold text-2xl bg-primary">
+                                                {testimonial.name[0]}
+                                            </p>
 										</div>
 										<div>
 											<h3 className="font-semibold text-lg">

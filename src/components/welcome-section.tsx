@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
 import { Building2 } from "lucide-react";
 
 export function WelcomeSection() {
@@ -68,7 +67,7 @@ export function WelcomeSection() {
 									<Building2 className="h-12 w-12 mb-2" />
 								</div>
 								<div className="text-white">
-									<span className="text-5xl font-bold">+3</span>
+									<span className="text-5xl font-bold">+2</span>
 									<p className="text-sm font-medium">
 										ANOS DE
 										<br />

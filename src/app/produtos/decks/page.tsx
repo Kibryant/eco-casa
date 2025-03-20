@@ -10,7 +10,7 @@ export default function DecksPage() {
 		title: "Decks Ecológicos",
 		description:
 			"Soluções sustentáveis para áreas externas com beleza e durabilidade",
-		image: "/background-header-decks.webp?height=1080&width=1920",
+		image: "/deck-2.webp?height=1080&width=1920",
 		summary: {
 			title: "Decks que Transformam Espaços Externos",
 			description:
@@ -21,7 +21,7 @@ export default function DecksPage() {
 				"Baixa manutenção e longa vida útil",
 				"Instalação simples e rápida",
 			],
-			image: "/background-header-decks.webp?height=600&width=800",
+			image: "/deck-2.webp?height=600&width=800",
 		},
 		advantages: [
 			{

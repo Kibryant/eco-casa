@@ -8,17 +8,17 @@ import Image from "next/image";
 
 const stats = [
 	{
-		value: "100+",
+		value: "5+",
 		label: "Projetos concluídos",
 		icon: Lightbulb,
 	},
 	{
-		value: "15+",
+		value: "5+",
 		label: "Em andamento",
 		icon: Award,
 	},
 	{
-		value: "300+",
+		value: "50+",
 		label: "Clientes satisfeitos",
 		icon: Medal,
 	},

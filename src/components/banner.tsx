@@ -149,7 +149,6 @@ export function Banner() {
 								<div className="text-4xl font-bold mb-2 text-white">
 									Eco Casa
 								</div>
-								<div className="text-xl font-medium text-white">Desde 2010</div>
 								<div className="mt-2 text-sm bg-white/20 rounded-full py-1 px-4 inline-block text-white">
 									Inovação Sustentável
 								</div>
@@ -169,7 +168,7 @@ export function Banner() {
 								</motion.div>
 
                                 <motion.div
-									className="absolute bottom-20 -left-26 bg-white text-primary text-sm font-bold px-3 py-1 rounded-full"
+									className="absolute bottom-20 -left-36 bg-white text-primary text-sm font-bold px-3 py-1 rounded-full"
 									animate={{
 										y: [0, 5, 0],
 									}}
