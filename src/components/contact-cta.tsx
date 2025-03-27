@@ -36,8 +36,7 @@ export function ContactCTA() {
 					</h2>
 					<p className="text-xl text-white/90 mb-8">
 						Agende uma consulta com nossos especialistas e descubra como podemos
-						ajudar a transformar sua visão em realidade com nossas soluções
-						sustentáveis.
+						ajudar a transformar sua visão em realidade com nossas soluções!
 					</p>
 					<div className="flex flex-col sm:flex-row gap-4 justify-center">
 						<a

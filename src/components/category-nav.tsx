@@ -46,7 +46,7 @@ export function CategoryNav() {
           <span className="text-primary font-medium mb-4 block">NOSSAS SOLUÇÕES</span>
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">Categorias em Destaque</h2>
           <p className="text-muted-foreground max-w-3xl mx-auto">
-            Descubra nossa linha completa de produtos sustentáveis para transformar seus espaços com beleza,
+            Descubra nossa linha completa de produtos para transformar seus espaços com beleza,
             durabilidade e responsabilidade ambiental.
           </p>
         </motion.div>

@@ -53,7 +53,7 @@ export default function RevestimentosPage() {
 		products: [
 			{
 				id: 1,
-				name: "Revestimento 3D",
+				name: "Ripado | Lesco",
 				description:
 					"Painéis tridimensionais que criam efeitos visuais impressionantes",
 				image: "/revestimento-1.webp?height=600&width=600",
@@ -61,22 +61,10 @@ export default function RevestimentosPage() {
 			},
 			{
 				id: 2,
-				name: "Revestimento de Fibras Naturais",
-				description:
-					"Composto de fibras de coco, sisal e outras matérias-primas renováveis",
-				image: "/revestimento-2.webp?height=600&width=600",
-				features: [
-					"100% natural",
-					"Propriedades acústicas",
-					"Textura orgânica",
-				],
-			},
-			{
-				id: 3,
-				name: "Revestimento de Madeira Reciclada",
+				name: "Placa Flexível | Wallboard",
 				description:
 					"Painéis produzidos com madeira de demolição e reaproveitamento",
-				image: "/revestimento-3.webp?height=600&width=600",
+				image: "/revestimento-2.webp?height=600&width=600",
 				features: [
 					"Aparência vintage",
 					"História única",
@@ -84,10 +72,23 @@ export default function RevestimentosPage() {
 				],
 			},
 			{
-				id: 4,
-				name: "Revestimento Mineral Ecológico",
+				id: 3,
+				name: "Revestimento Sevilha | Tijox",
 				description:
-					"Composto de minerais naturais com acabamento contemporâneo",
+					"Revestimento cerâmico com aparência de tijolo, ideal para áreas externas",
+				image: "/revestimento-3.webp?height=600&width=600",
+				features: [
+					"100% natural",
+					"Textura orgânica",
+                    "Impermeável",
+				],
+			},
+
+			{
+				id: 4,
+				name: "Revestimento Piscina | Eliane",
+				description:
+					"Revestimento cerâmico ideal para áreas molhadas e externas",
 				image: "/revestimento-4.webp?height=600&width=600",
 				features: ["Resistente à umidade", "Antimofo", "Diversas texturas"],
 			},

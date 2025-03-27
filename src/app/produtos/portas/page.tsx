@@ -14,7 +14,7 @@ export default function PortasPage() {
 		summary: {
 			title: "Portas que Unem Design e Consciência Ambiental",
 			description:
-				"Na Eco Casa, somos representantes exclusivos da renomada marca Sincol no sul da Bahia, sinônimo de qualidade e inovação em portas de madeira. Também trabalhamos com a Carpiso, ampliando nossa seleção para atender a diferentes estilos e projetos. Nossas portas são produzidas com madeira certificada e combinam materiais sustentáveis com design contemporâneo, garantindo elegância, durabilidade e respeito ao meio ambiente. Cada peça reflete a harmonia entre tecnologia avançada e compromisso ecológico, oferecendo soluções ideais para residências e espaços comerciais.",
+				"Na Eco Casa, somos representantes exclusivos da renomada marca Sincol no sul da Bahia, sinônimo de qualidade e inovação em portas de madeira. Também trabalhamos com a Carpiso, ampliando nossa seleção para atender a diferentes estilos e projetos. Nossas portas são produzidas com madeira certificada e garantem elegância, durabilidade e respeito ao meio ambiente. Cada peça reflete a harmonia e tecnologia avançada, oferecendo soluções ideais para residências e espaços comerciais.",
 			features: [
 				"Madeira de reflorestamento certificada",
 				"Acabamentos não tóxicos",
@@ -52,7 +52,7 @@ export default function PortasPage() {
 		products: [
 			{
 				id: 1,
-				name: "Porta Ecológica Modelo Viena",
+				name: "Porta Modelo Viena",
 				description:
 					"Design clássico com detalhes em relevo e acabamento premium",
 				image: "/porta-1.jpg?height=600&width=600",
@@ -64,14 +64,14 @@ export default function PortasPage() {
 			},
 			{
 				id: 2,
-				name: "Porta Pivotante",
+				name: "Porta de Correr",
 				description: "Imponente e moderna, ideal para entradas principais",
 				image: "/porta-2.jpg?height=600&width=600",
 				features: ["Giro 360°", "Altura personalizada", "Sistema anti-ruído"],
 			},
 			{
 				id: 3,
-				name: "Porta de Correr Ecológica",
+				name: "Porta Pivotante",
 				description: "Solução elegante para otimização de espaços",
 				image: "/porta-3.jpg?height=600&width=600",
 				features: [

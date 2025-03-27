@@ -10,7 +10,7 @@ import Link from "next/link";
 const heroProducts = [
 	{
 		id: 1,
-		title: "Portas Ecológicas",
+		title: "Portas",
 		subtitle: "Elegância",
 		description:
 			"Portas premium feitas com madeira certificada e processos sustentáveis",

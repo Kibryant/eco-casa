@@ -68,11 +68,11 @@ export function FeaturedProducts() {
 						Produtos em Destaque
 					</h2>
 					<p className="text-muted-foreground max-w-3xl mx-auto">
-						Descubra nossa seleção exclusiva de produtos sustentáveis e
-						inovadores, cuidadosamente escolhidos para transformar sua casa em
-						um ambiente mais ecológico e elegante. Cada item é projetado com
-						materiais de alta qualidade e práticas de produção responsáveis,
-						garantindo durabilidade.
+						Descubra nossa seleção exclusiva de produtos inovadores,
+						cuidadosamente escolhidos para transformar sua casa em um ambiente
+						mais ecológico e elegante. Cada item é projetado com materiais de
+						alta qualidade e práticas de produção responsáveis, garantindo
+						durabilidade e sofisticação.
 					</p>
 				</motion.div>
 

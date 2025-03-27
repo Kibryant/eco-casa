@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { CheckCircle2, Award, Trophy, ThumbsUp } from "lucide-react";
 import Image from "next/image";
 
 export function Banner() {
@@ -28,75 +27,12 @@ export function Banner() {
 						</h2>
 
 						<p className="text-xl text-white/90 mb-8 max-w-lg">
-							A Eco Casa é pioneira em soluções sustentáveis
-							para construção e decoração, unindo inovação, design e compromisso
-							ambiental em cada produto.
+							Eco Casa visa atender necessidades de construtores, designers,
+							arquitetos nos seguimentos de portas, revestimentos, decks e
+							pedras naturais. Com versatilidade conseguimos atender a todos os
+							gostos, desde os mais simples aos mais sofisticados, levando
+							harmonia e aconchego a sua obra.
 						</p>
-
-						<div className="space-y-5 mb-8">
-							<motion.div
-								initial={{ opacity: 0, x: -20 }}
-								whileInView={{ opacity: 1, x: 0 }}
-								viewport={{ once: true }}
-								transition={{ duration: 0.5, delay: 0.5 }}
-								className="flex items-start gap-3"
-							>
-								<div className="bg-white/20 p-2 rounded-full mt-0.5">
-									<Trophy className="h-5 w-5 text-white" />
-								</div>
-								<div>
-									<h3 className="text-white font-semibold text-lg">
-										Excelência Reconhecida
-									</h3>
-									<p className="text-white/80">
-										Premiada por nossa qualidade e inovação em produtos
-										sustentáveis
-									</p>
-								</div>
-							</motion.div>
-
-							<motion.div
-								initial={{ opacity: 0, x: -20 }}
-								whileInView={{ opacity: 1, x: 0 }}
-								viewport={{ once: true }}
-								transition={{ duration: 0.5, delay: 0.6 }}
-								className="flex items-start gap-3"
-							>
-								<div className="bg-white/20 p-2 rounded-full mt-0.5">
-									<CheckCircle2 className="h-5 w-5 text-white" />
-								</div>
-								<div>
-									<h3 className="text-white font-semibold text-lg">
-										Compromisso Ambiental
-									</h3>
-									<p className="text-white/80">
-										Produtos certificados e processos que respeitam o meio
-										ambiente
-									</p>
-								</div>
-							</motion.div>
-
-							<motion.div
-								initial={{ opacity: 0, x: -20 }}
-								whileInView={{ opacity: 1, x: 0 }}
-								viewport={{ once: true }}
-								transition={{ duration: 0.5, delay: 0.7 }}
-								className="flex items-start gap-3"
-							>
-								<div className="bg-white/20 p-2 rounded-full mt-0.5">
-									<ThumbsUp className="h-5 w-5 text-white" />
-								</div>
-								<div>
-									<h3 className="text-white font-semibold text-lg">
-										Satisfação Garantida
-									</h3>
-									<p className="text-white/80">
-										Mais de 100 projetos realizados com 98% de clientes
-										satisfeitos
-									</p>
-								</div>
-							</motion.div>
-						</div>
 					</motion.div>
 
 					<motion.div
@@ -167,7 +103,7 @@ export function Banner() {
 									2+ Anos
 								</motion.div>
 
-                                <motion.div
+								<motion.div
 									className="absolute bottom-20 -left-36 bg-white text-primary text-sm font-bold px-3 py-1 rounded-full"
 									animate={{
 										y: [0, 5, 0],
@@ -179,7 +115,7 @@ export function Banner() {
 										delay: 0.5,
 									}}
 								>
-                                    100+ Clientes Satisfeitos
+									100+ Clientes Satisfeitos
 								</motion.div>
 							</div>
 						</div>

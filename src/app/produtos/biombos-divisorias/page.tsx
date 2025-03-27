@@ -14,9 +14,9 @@ export default function BiombosDivisoriasPage() {
 			"Soluções sustentáveis para separação de ambientes com elegância e funcionalidade",
 		image: "/background-header-biombos-divisorias.jpg?height=1080&width=1920",
 		summary: {
-			title: "Divisórias que Unem Estética e Sustentabilidade",
+			title: "Divisórias que Unem Estética e Modernidade",
 			description:
-				"Nossa linha de biombos e divisórias ecológicas oferece soluções versáteis para organizar e delimitar espaços com consciência ambiental. Fabricados com materiais sustentáveis e design contemporâneo, nossos produtos combinam funcionalidade, beleza e respeito ao meio ambiente, criando ambientes harmoniosos e flexíveis.",
+				"Nossa linha de biombos e divisórias oferece soluções versáteis para organizar e delimitar espaços. Fabricados com materiais sustentáveis e design contemporâneo, nossos produtos combinam funcionalidade e beleza, criando ambientes harmoniosos e flexíveis.",
 			features: [
 				"Materiais reciclados e de origem certificada",
 				"Design modular e personalizável",
