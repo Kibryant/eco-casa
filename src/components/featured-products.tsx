@@ -10,7 +10,7 @@ const whatsappNumber = "5573982135734";
 const featuredProducts = [
 	{
 		id: 1,
-		name: "Porta Ecológica Modelo Viena",
+		name: "Porta Modelo Viena",
 		price: "R$ 1.299,00",
 		image: "/porta-1.jpg?height=600&width=600",
 		rating: 4.8,
@@ -19,7 +19,7 @@ const featuredProducts = [
 	},
 	{
 		id: 2,
-		name: "Revestimento Bambu",
+		name: "Ripado Lesco",
 		price: "R$ 189,90",
 		originalPrice: "R$ 249,90",
 		image: "/revestimento-1.webp?height=600&width=600",
@@ -29,7 +29,7 @@ const featuredProducts = [
 	},
 	{
 		id: 3,
-		name: "Biombo de Madeira Ecológica",
+		name: "Biombo Modular Eco",
 		price: "R$ 399,00",
 		image: "/biombo-1.png?height=600&width=600",
 		rating: 4.7,
@@ -38,7 +38,7 @@ const featuredProducts = [
 	},
 	{
 		id: 4,
-		name: "Deck de Madeira Ecológico",
+		name: "Lesco Green Deck",
 		price: "R$ 129,90",
 		image: "/deck-1.webp?height=600&width=600",
 		rating: 4.6,

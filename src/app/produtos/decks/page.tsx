@@ -52,14 +52,14 @@ export default function DecksPage() {
 		products: [
 			{
 				id: 1,
-				name: "Deck Ecológico Premium",
+				name: "Lesco Green Deck",
 				description: "Acabamento sofisticado com textura de madeira natural",
 				image: "/deck-1.webp?height=600&width=600",
 				features: ["Resistente a UV", "Antiderrapante", "Fácil instalação"],
 			},
 			{
 				id: 2,
-				name: "Deck Modular",
+				name: "Lesco Green Deck",
 				description: "Sistema de encaixe para instalação rápida e versátil",
 				image: "/deck-2.webp?height=600&width=600",
 				features: [
@@ -70,21 +70,10 @@ export default function DecksPage() {
 			},
 			{
 				id: 3,
-				name: "Deck Ecológico Rústico",
+				name: "Lesco Green Deck",
 				description: "Textura marcante que remete à madeira de demolição",
 				image: "/deck-3.webp?height=600&width=600",
 				features: ["Aparência vintage", "Alta resistência", "Baixa manutenção"],
-			},
-			{
-				id: 4,
-				name: "Deck Flutuante Eco",
-				description: "Sistema elevado para instalação sobre diversos pisos",
-				image: "/deck-4.webp?height=600&width=600",
-				features: [
-					"Drenagem eficiente",
-					"Nivelamento ajustável",
-					"Fácil acesso a instalações",
-				],
 			},
 		],
 		portfolio: [

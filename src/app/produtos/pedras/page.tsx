@@ -9,7 +9,7 @@ export default function PedrasPage() {
 	const categoryData = {
 		title: "Pedras Ecológicas",
 		description: "Beleza natural e sustentabilidade para seus projetos",
-		image: "/background-header-pisos.jpg?height=1080&width=1920",
+		image: "/background-header-pedras.jpg?height=1080&width=1920",
 		summary: {
 			title: "Pedras que Unem Natureza e Inovação",
 			description:
@@ -20,7 +20,7 @@ export default function PedrasPage() {
 				"Resistência superior a manchas e intempéries",
 				"Manutenção mínima e durabilidade excepcional",
 			],
-			image: "/background-header-pisos.jpg?height=600&width=800",
+			image: "/background-header-pedras.jpg?height=600&width=800",
 		},
 		advantages: [
 			{

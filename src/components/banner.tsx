@@ -26,15 +26,15 @@ export function Banner() {
 							Eco Casa: Transformando Espaços Com Elegância e Sofisticação
 						</h2>
 
-						<p className="text-xl text-white/90 mb-8 max-w-lg">
-							Eco Casa visa atender necessidades de construtores, designers,
-							arquitetos nos seguimentos de portas, revestimentos, decks e
-							pedras naturais. Com versatilidade conseguimos atender a todos os
-							gostos, desde os mais simples aos mais sofisticados, levando
-							harmonia e aconchego a sua obra.
-						</p>
+                        <p className="text-xl text-white/90 mb-8 max-w-lg">
+                            Na Eco Casa, transformamos sonhos em realidade, oferecendo soluções
+                            exclusivas em portas, revestimentos, decks e pedras naturais. Nosso
+                            compromisso é unir versatilidade e sofisticação para criar espaços
+                            que refletem harmonia, conforto e estilo, atendendo desde projetos
+                            simples até os mais elaborados.
+                        </p>
 					</motion.div>
-
+        
 					<motion.div
 						initial={{ opacity: 0, x: 20 }}
 						whileInView={{ opacity: 1, x: 0 }}
@@ -88,20 +88,6 @@ export function Banner() {
 								<div className="mt-2 text-sm bg-white/20 rounded-full py-1 px-4 inline-block text-white">
 									Inovação
 								</div>
-
-								<motion.div
-									className="absolute -top-4 -right-4 bg-secondary text-white text-sm font-bold px-3 py-1 rounded-full"
-									animate={{
-										y: [0, -5, 0],
-									}}
-									transition={{
-										duration: 2,
-										repeat: Number.POSITIVE_INFINITY,
-										repeatType: "reverse",
-									}}
-								>
-									2+ Anos
-								</motion.div>
 
 								<motion.div
 									className="absolute bottom-20 -left-36 bg-white text-primary text-sm font-bold px-3 py-1 rounded-full"
