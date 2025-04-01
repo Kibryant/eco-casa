@@ -28,21 +28,22 @@ export function WelcomeSection() {
 
 						<div className="border-l-4 border-primary pl-6 mb-8">
 							<p className="text-lg text-foreground/80">
-								A Eco Casa é uma empresa comprometida com o meio ambiente, sem
-								comprometer a satisfação do cliente. Além de oferecer produtos
-								de alto padrão, seus itens, como portas, decks e revestimentos,
-								são exclusivos.
+								Eco Casa visa atender necessidades de construtores, designers,
+								arquitetos nos seguimentos de portas, revestimentos, decks e
+								pedras naturais. Com versatilidade conseguimos atender a todos
+								os gostos, desde os mais simples aos mais sofisticados, levando
+								harmonia e aconchego a sua obra.
 							</p>
 						</div>
 
 						<p className="text-foreground/70 mb-8">
 							Nossa missão é levar harmonia e aconchego á sua residência,
-							comércio ou indústria, buscamos integrar a beleza natural dos materiais
-							com a funcionalidade necessária para o dia a dia. Nossos produtos
-							são desenvolvidos com tecnologia de ponta e um cuidado especial
-							para garantir durabilidade, segurança e um design que se adapte
-							perfeitamente ao seu espaço, proporcionando um ambiente acolhedor
-							e eficiente.
+							comércio ou indústria, buscamos integrar a beleza natural dos
+							materiais com a funcionalidade necessária para o dia a dia. Nossos
+							produtos são desenvolvidos com tecnologia de ponta e um cuidado
+							especial para garantir durabilidade, segurança e um design que se
+							adapte perfeitamente ao seu espaço, proporcionando um ambiente
+							acolhedor e eficiente.
 						</p>
 					</motion.div>
 
