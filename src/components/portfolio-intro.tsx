@@ -22,7 +22,7 @@ export function PortfolioIntro() {
 
             <div className="border-l-4 border-primary pl-6 mb-8">
               <p className="text-lg text-foreground/80">
-                Há mais de 14 anos, a Eco Casa desenvolve projetos que combinam inovação, design e responsabilidade
+                Há mais de 14 anos, a Lesco desenvolve projetos que combinam inovação, design e responsabilidade
                 ambiental. Nossa trajetória é marcada por parcerias de sucesso com arquitetos, designers e construtores
                 que compartilham nossa visão de um futuro mais sustentável.
               </p>

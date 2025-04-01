@@ -37,8 +37,7 @@ export function WelcomeSection() {
 
 						<p className="text-foreground/70 mb-8">
 							Nossa missão é levar harmonia e aconchego á sua residência,
-							comércio ou indústria Com um comprometimento constante com a
-							sustentabilidade, buscamos integrar a beleza natural dos materiais
+							comércio ou indústria, buscamos integrar a beleza natural dos materiais
 							com a funcionalidade necessária para o dia a dia. Nossos produtos
 							são desenvolvidos com tecnologia de ponta e um cuidado especial
 							para garantir durabilidade, segurança e um design que se adapte

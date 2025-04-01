@@ -84,13 +84,11 @@ export function AboutContent() {
 
 						<p className="text-foreground/70 mb-8">
 							Com experiência de mercado, nossa empresa é referência na
-							arquitetura de ambientes transformadores e na construção de um
-							mundo mais sustentável. Ao longo de nossa trajetória, buscamos
-							constantemente soluções inovadoras e ecologicamente conscientes
+							arquitetura de ambientes transformadores. Ao longo de nossa trajetória, buscamos
+							constantemente soluções inovadoras
 							para o setor da arquitetura e construção civil. Somos
-							comprometidos com a excelência em cada projeto, sendo pioneiros na
-							criação de produtos com madeira ecológica. Nossa missão é
-							proporcionar alternativas elegantes e sustentáveis, contribuindo
+							comprometidos com a excelência em cada projeto. Nossa missão é
+							proporcionar alternativas elegantes, contribuindo
 							assim para um futuro mais promissor e ecologicamente equilibrado.
 						</p>
 

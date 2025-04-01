@@ -29,9 +29,9 @@ const featuredProducts = [
 	},
 	{
 		id: 3,
-		name: "Biombo Modular Eco",
+		name: "Biombo e Divisória",
 		price: "R$ 399,00",
-		image: "/biombo-1.png?height=600&width=600",
+		image: "/biombo-3.jpg?height=600&width=600",
 		rating: 4.7,
 		reviews: 53,
 		tag: "Novo",
