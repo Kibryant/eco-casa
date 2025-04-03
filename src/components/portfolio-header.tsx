@@ -50,8 +50,8 @@ export function PortfolioHeader() {
 							animate={{ opacity: 1, y: 0 }}
 							transition={{ duration: 0.6, delay: 0.4 }}
 						>
-							Conheça nossa trajetória de excelência em projetos sustentáveis
-							que transformam espaços e preservam o meio ambiente.
+							Conheça nossa trajetória de excelência em projetos inovadores que
+							elevam ambientes com elegância e sofisticação.
 						</motion.p>
 
 						<motion.div

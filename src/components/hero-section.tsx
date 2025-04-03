@@ -13,7 +13,7 @@ const heroProducts = [
 		title: "Portas",
 		subtitle: "Elegância",
 		description:
-			"Portas premium feitas com madeira certificada e processos sustentáveis",
+			"Portas premium feitas com madeira certificadas e processos responsáveis",
 		image: "/background-header-portas-first-page.jpg?height=1080&width=1920",
 		cta: "Ver Coleção",
 		link: "/produtos/portas",

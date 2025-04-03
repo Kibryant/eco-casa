@@ -8,8 +8,8 @@ import { ArrowRight } from "lucide-react"
 const categories = [
   {
     id: 1,
-    title: "Decks Ecológicos",
-    description: "Soluções sustentáveis para áreas externas",
+    title: "Decks",
+    description: "Soluções para áreas externas",
     image: "/background-header-decks.webp?height=600&width=800",
     link: "/produtos/decks",
     color: "from-green-800/80 to-green-900/80",
@@ -17,7 +17,7 @@ const categories = [
   {
     id: 2,
     title: "Portas",
-    description: "Elegância e responsabilidade ambiental",
+    description: "Elegância e estilo para seu ambiente",
     image: "/background-header-portas.jpg?height=600&width=800",
     link: "/produtos/portas",
     color: "from-emerald-800/80 to-emerald-900/80",

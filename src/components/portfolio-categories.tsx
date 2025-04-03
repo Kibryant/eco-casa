@@ -62,8 +62,8 @@ export function PortfolioCategories() {
           <span className="text-primary font-medium mb-4 block">ÁREAS DE ATUAÇÃO</span>
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">Nossos Segmentos</h2>
           <p className="text-muted-foreground max-w-3xl mx-auto">
-            Desenvolvemos projetos sustentáveis para diversos segmentos, sempre com foco na qualidade, inovação e
-            respeito ao meio ambiente.
+          Criamos soluções inovadoras e de alta qualidade para diversos segmentos, combinando design,
+          tecnologia e compromisso com a excelência.
           </p>
         </motion.div>
 

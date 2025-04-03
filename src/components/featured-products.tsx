@@ -10,9 +10,9 @@ const whatsappNumber = "5573982135734";
 const featuredProducts = [
 	{
 		id: 1,
-		name: "Porta Modelo Viena",
+		name: "Porta Sincolors Laqueado Cinza Grafite",
 		price: "R$ 1.299,00",
-		image: "/porta-1.jpg?height=600&width=600",
+		image: "/porta-destaque.webp?height=600&width=600",
 		rating: 4.8,
 		reviews: 124,
 		tag: "Mais Vendido",
@@ -40,7 +40,7 @@ const featuredProducts = [
 		id: 4,
 		name: "Lesco Green Deck",
 		price: "R$ 129,90",
-		image: "/deck-1.webp?height=600&width=600",
+		image: "/deck-destaque.jpg?height=600&width=600",
 		rating: 4.6,
 		reviews: 78,
 		tag: "Exclusivo",
