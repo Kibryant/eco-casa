@@ -52,7 +52,7 @@ export function StartSection() {
 							animate={{ opacity: 1, y: 0 }}
 							transition={{ duration: 0.6, delay: 0.4 }}
 						>
-							Transformando espaços com soluções sustentáveis e design inovador!
+							Transformando espaços com soluções sofisticadas e design inovador!
 						</motion.p>
 
 						<motion.div

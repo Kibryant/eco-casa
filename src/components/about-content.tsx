@@ -2,8 +2,6 @@
 
 import { motion } from "framer-motion";
 import { ArrowRight, Lightbulb, Award, Medal } from "lucide-react";
-import { CountUp } from "./count-up";
-import { parseStatValue } from "@/functions/parse-stat-value";
 import Image from "next/image";
 
 const stats = [
@@ -26,21 +24,24 @@ const stats = [
 
 const highlights = [
 	{
-		title: "Inovação Ecológica:",
+		title: "Soluções Sustentáveis:",
 		description:
-			"Transformando resíduos em soluções sofisticadas e sustentáveis.",
+			"Representamos marcas renomadas, como Sincol e Carpiso, garantindo produtos ecológicos e de alta performance",
 	},
 	{
-		title: "Design Excepcional:",
-		description: "Cada produto Lesco é uma obra de arte.",
+		title: "Design e Inovaçãol:",
+		description:
+			"Portas, revestimentos e acabamentos que unem elegância e durabilidade.",
 	},
 	{
-		title: "Compromisso Verde:",
-		description: "Certificações LEED e ESG garantem práticas sustentáveis.",
+		title: "Compromisso Ambiental:",
+		description:
+			"Trabalhamos com madeiras certificadas e processos responsáveis, contribuindo para um futuro sustentável..",
 	},
 	{
-		title: "Satisfação do Cliente:",
-		description: "Depoimentos reais destacam nosso impacto positivo.",
+		title: "Excelência e Parceria:",
+		description:
+			"Atuamos em projetos exclusivos, como o Residencial Petra, destacando a força de nossa parceria com a Lesco e outros grandes nomes do mercado. Com a Eco Casa, cada detalhe do seu projeto reflete sofisticação e sustentabilidade.",
 	},
 ];
 
@@ -57,7 +58,7 @@ export function AboutContent() {
 					>
 						<div className="relative h-[600px] rounded-lg overflow-hidden">
 							<Image
-								src="/about-image.jpg"
+								src="/orla-sul.jpg?height=600&width=800"
 								alt="Arquitetura moderna e sustentável"
 								fill
 								className="object-cover"
@@ -83,13 +84,11 @@ export function AboutContent() {
 						</h2>
 
 						<p className="text-foreground/70 mb-8">
-							Com experiência de mercado, nossa empresa é referência na
-							arquitetura de ambientes transformadores. Ao longo de nossa trajetória, buscamos
-							constantemente soluções inovadoras
-							para o setor da arquitetura e construção civil. Somos
-							comprometidos com a excelência em cada projeto. Nossa missão é
-							proporcionar alternativas elegantes, contribuindo
-							assim para um futuro mais promissor e ecologicamente equilibrado.
+							A Eco Casa é referência na arquitetura de ambientes sofisticados e
+							funcionais, oferecendo soluções inovadoras para o setor da
+							construção civil e design de interiores. Nossa missão é
+							transformar espaços com produtos de alta qualidade, combinando
+							estética, tecnologia e responsabilidade ambiental.
 						</p>
 
 						<div className="space-y-4">

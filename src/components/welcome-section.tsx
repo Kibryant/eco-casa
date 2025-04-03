@@ -21,8 +21,6 @@ export function WelcomeSection() {
 						<h2 className="font-display text-4xl lg:text-5xl font-bold mb-8 leading-tight">
 							Nossa Identidade:
 							<br />
-							Sustentabilidade e
-							<br />
 							Inovação
 						</h2>
 
