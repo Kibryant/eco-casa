@@ -1,21 +1,25 @@
+"use client";
+
 import { HeroCategory } from "@/components/hero-category";
 import { CategorySummary } from "@/components/category-summary";
 import { ProductAdvantages } from "@/components/product-advantages";
 import { CategoryProducts } from "@/components/category-products";
 import { ProjectPortfolio } from "@/components/project-portfolio";
 import { ContactCTA } from "@/components/contact-cta";
+import Image from "next/image";
+import { motion } from "framer-motion";
+import { CheckCircle } from "lucide-react";
 
 export default function RevestimentosPage() {
-	// Dados específicos para a página de Revestimentos
 	const categoryData = {
 		title: "Revestimentos Ecológicos",
 		description:
 			"Transforme seus ambientes com texturas e materiais sustentáveis",
 		image: "/background-header-revestimentos.webp?height=600&width=1920",
 		summary: {
-			title: "Revestimentos que Respeitam o Planeta",
+			title: "Revestimentos: Sofisticação, Versatilidade e Qualidade",
 			description:
-				"Nossa linha de revestimentos ecológicos oferece soluções inovadoras para paredes e superfícies, combinando estética, funcionalidade e compromisso ambiental. Produzidos com materiais reciclados e naturais, nossos revestimentos transformam qualquer ambiente com texturas e acabamentos exclusivos.",
+				"Oferecemos uma seleção completa de revestimentos para transformar qualquer ambiente com elegância e funcionalidade. Trabalhamos com materiais inovadores e sustentáveis, proporcionando soluções que aliam design sofisticado, durabilidade e alta performance. Seja para um projeto residencial ou comercial, nossos brises, ripados, cerâmicas, porcelanatos, forros, pisos vinílicos, placas flexíveis e tijolos rústicos ecológicos são escolhas ideais para quem busca acabamentos impecáveis e exclusivos. Descubra a melhor opção para o seu espaço e dê um toque de personalidade e requinte ao seu projeto com  qualidade e excelência ",
 			features: [
 				"Materiais reciclados",
 				"Variedade de texturas e acabamentos",
@@ -77,11 +81,7 @@ export default function RevestimentosPage() {
 				description:
 					"Revestimento cerâmico com aparência de tijolo, ideal para áreas externas",
 				image: "/revestimento-3.webp?height=600&width=600",
-				features: [
-					"100% natural",
-					"Textura orgânica",
-                    "Impermeável",
-				],
+				features: ["100% natural", "Textura orgânica", "Impermeável"],
 			},
 
 			{
@@ -113,6 +113,34 @@ export default function RevestimentosPage() {
 		],
 	};
 
+	const pisosVinilicos = [
+		{
+			title: "Madeira Nobre",
+			description:
+				"Texturas realistas que imitam madeira e outros materiais naturais.",
+		},
+		{
+			title: "Alta Resistência",
+			description:
+				"Alta durabilidade e resistência à umidade, riscos e manchas.",
+		},
+		{
+			title: "Durabilidade Excepcional",
+			description:
+				"Conforto térmico e acústico, tornando os ambientes mais agradáveis.",
+		},
+		{
+			title: "Sustentabilidade",
+			description:
+				"Madeiras de manejo responsável, garantindo um impacto ambiental reduzido.",
+		},
+		{
+			title: "Acabamento Superior",
+			description:
+				"Fácil manutenção, ideal para quem busca praticidade no dia a dia.",
+		},
+	];
+
 	return (
 		<main className="flex flex-col min-h-screen">
 			<HeroCategory
@@ -126,6 +154,69 @@ export default function RevestimentosPage() {
 				features={categoryData.summary.features}
 				image={categoryData.summary.image}
 			/>
+
+			<section className="py-24">
+				<div>
+					<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center px-4">
+						<motion.div
+							initial={{ opacity: 0, x: 20 }}
+							whileInView={{ opacity: 1, x: 0 }}
+							viewport={{ once: true }}
+							transition={{ duration: 0.8, delay: 0.2 }}
+							className="relative"
+						>
+							<div className="absolute -bottom-6 -right-6 w-full h-full bg-primary/10 rounded-lg z-0" />
+							<div className="relative h-[500px] rounded-lg overflow-hidden z-10">
+								<Image
+									src="/piso-vinilico.jpg?height=600&width=800"
+									fill
+									className="object-cover"
+									alt=""
+								/>
+							</div>
+						</motion.div>
+
+						<motion.div
+							initial={{ opacity: 0, x: 20 }}
+							animate={{ opacity: 1, x: 0 }}
+							transition={{ duration: 0.8 }}
+							className="order-1 lg:order-2"
+						>
+							<h2 className="text-3xl md:text-4xl font-display font-bold mb-6">
+								Piso Vinílico: Beleza, Conforto e Resistência
+							</h2>
+
+							<p className="text-foreground/70 mb-8">
+								Oferecemos as melhores soluções em pisos vinílicos, garantindo
+								uma experiência única para seus ambientes. Nossas coleções
+								oferecem uma ampla variedade de cores, texturas e padrões que
+								reproduzem fielmente a beleza da natureza, trazendo aconchego e
+								sofisticação para qualquer espaço. Cada detalhe é pensado para
+								proporcionar o máximo de conforto e praticidade:
+							</p>
+
+							<div className="space-y-4">
+								{pisosVinilicos.map((item, index) => (
+									<motion.div
+										key={`feature-${index + 1}`}
+										initial={{ opacity: 0, y: 10 }}
+										whileInView={{ opacity: 1, y: 0 }}
+										viewport={{ once: true }}
+										transition={{ duration: 0.6, delay: index * 0.2 }}
+										className="flex items-start space-x-4"
+									>
+										<CheckCircle className="w-6 h-6 text-primary" />
+										<div>
+											<h3 className="text-lg font-semibold">{item.description}</h3>
+										</div>
+									</motion.div>
+								))}
+							</div>
+						</motion.div>
+					</div>
+				</div>
+			</section>
+
 			<ProductAdvantages advantages={categoryData.advantages} />
 			<CategoryProducts products={categoryData.products} />
 			<ProjectPortfolio projects={categoryData.portfolio} />
