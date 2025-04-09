@@ -10,43 +10,43 @@ const partners = [
 	{
 		id: 1,
 		name: "Sincol",
-		logo: "/1.png?height=400&width=400",
+		logo: "/1.png?height=800&width=800",
 		instagram: "https://instagram.com/sincol_sa",
 	},
 	{
 		id: 2,
 		name: "Carpiso",
-		logo: "/2.png?height=400&width=400",
+		logo: "/2.png?height=800&width=800",
 		instagram: "https://instagram.com/empresa2",
 	},
 	{
 		id: 3,
 		name: "ATS",
-		logo: "/3.png?height=400&width=400",
+		logo: "/3.png?height=800&width=800",
 		instagram: "https://www.instagram.com/ats.dbs",
 	},
 	{
 		id: 4,
 		name: "Lesco",
-		logo: "/4.jpg?height=400&width=400",
+		logo: "/4.jpg?height=800&width=800",
 		instagram: "https://www.instagram.com/lesco_br",
 	},
 	{
 		id: 5,
 		name: "Quick Step",
-		logo: "/5.png?height=400&width=400",
+		logo: "/5.png?height=800&width=800",
 		instagram: "https://www.instagram.com/quickstep_brasil",
 	},
 	{
 		id: 6,
 		name: "Audaz",
-		logo: "/6.png?height=400&width=400",
+		logo: "/6.png?height=800&width=800",
 		instagram: "https://www.instagram.com/audaz.pro",
 	},
 	{
 		id: 7,
 		name: "Tijox",
-		logo: "/7.png?height=400&width=400",
+		logo: "/7.png?height=800&width=800",
 		instagram: "https://www.instagram.com/tijox.oficial",
 	},
 ];
@@ -94,14 +94,15 @@ export function PartnersSection() {
 								href={partner.instagram}
 								target="_blank"
 								rel="noopener noreferrer"
-								className="block relative h-36 bg-white rounded-lg p-4 border border-gray-100 hover:border-primary/20 hover:shadow-md transition-all duration-300"
+								className="block relative  bg-white rounded-lg p-4 border border-gray-100 hover:border-primary/20 hover:shadow-md transition-all duration-300"
 								aria-label={`Visite o Instagram de ${partner.name}`}
 							>
 								<div className="relative h-full w-full">
 									<Image
 										src={partner.logo}
 										alt={partner.name}
-										fill
+                                        width={800}
+                                        height={400}
 										className="object-contain"
 									/>
 								</div>

@@ -54,10 +54,10 @@ export default function BiombosDivisoriasPage() {
 		products: [
 			{
 				id: 1,
-				name: "Biombo Modular Eco",
+				name: "Biombo",
 				description:
 					"Sistema modular de biombos com painéis intercambiáveis para máxima flexibilidade",
-				image: "/biombo-1.png?height=600&width=600",
+				image: "/biombo-1.jpg?height=600&width=600",
 				features: [
 					"Painéis intercambiáveis",
 					"Fácil montagem",

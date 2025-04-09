@@ -33,7 +33,7 @@ export function CategoryProducts({ products }: CategoryProductsProps) {
           <span className="text-primary font-medium mb-4 block">CONHEÇA NOSSA LINHA</span>
           <h2 className="text-4xl md:text-5xl font-display font-bold mb-6">Nossos Produtos</h2>
           <p className="text-muted-foreground max-w-3xl mx-auto">
-            Descubra nossa seleção de produtos sustentáveis, desenvolvidos com tecnologia avançada e compromisso
+            Descubra nossa seleção de produtos, desenvolvidos com tecnologia avançada e compromisso
             ambiental para oferecer o melhor em qualidade e durabilidade.
           </p>
         </motion.div>

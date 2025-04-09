@@ -14,7 +14,7 @@ export default function PortasPage() {
 		summary: {
 			title: "Portas que Unem Design e Consciência Ambiental",
 			description:
-				"Na Eco Casa, somos representantes exclusivos da renomada marca Sincol no sul da Bahia e extremo sul, sinônimo de qualidade e inovação em portas de madeira. Também trabalhamos com a Carpiso, ampliando nossa seleção para atender a diferentes estilos e projetos. Nossas portas são produzidas com madeira certificada e garantem elegância, durabilidade e sotisficação. Cada peça reflete a harmonia e tecnologia avançada, oferecendo soluções ideais para residências e espaços comerciais.",
+				"Na Eco Casa, somos representantes exclusivos da renomada marca Sincol no sul da Bahia e extremo sul, sinônimo de qualidade e inovação em kits de portas prontas. Também trabalhamos com a Carpiso, ampliando nossa seleção para atender a diferentes estilos e projetos. Nossas portas são produzidas com madeira certificada e garantem elegância, durabilidade e sofisticação. Cada peça reflete harmonia e tecnologia avançada, oferecendo soluções ideais para residências e espaços comerciais.",
 			features: [
 				"Madeira de reflorestamento certificada",
 				"Acabamentos não tóxicos",
