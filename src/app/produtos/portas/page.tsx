@@ -9,7 +9,7 @@ export default function PortasPage() {
 	const categoryData = {
 		title: "Portas Elegantes",
 		description:
-			"Elegância e sustentabilidade para entradas e ambientes internos",
+			"Elegância para entradas e ambientes internos",
 		image: "/background-header-portas.jpg?height=1080&width=1920",
 		summary: {
 			title: "Portas que Unem Design e Consciência Ambiental",
@@ -19,7 +19,7 @@ export default function PortasPage() {
 				"Madeira de reflorestamento certificada",
 				"Acabamentos não tóxicos",
 				"Isolamento térmico e acústico",
-				"Representantes exclusivos da Sincol no Sul da Bahia, trazendo produtos renomados no mercado.",
+				"Representantes exclusivos da Sincol no Sul e extremo Sul da Bahia, trazendo produtos renomados no mercado.",
 			],
 			image: "/background-header-portas.jpg?height=600&width=800",
 		},

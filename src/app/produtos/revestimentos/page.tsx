@@ -12,7 +12,7 @@ import { CheckCircle } from "lucide-react";
 
 export default function RevestimentosPage() {
 	const categoryData = {
-		title: "Revestimentos Ecológicos",
+		title: "Revestimentos",
 		description:
 			"Transforme seus ambientes com texturas e materiais sustentáveis",
 		image: "/background-header-revestimentos.webp?height=600&width=1920",
@@ -32,7 +32,7 @@ export default function RevestimentosPage() {
 			{
 				title: "Materiais Inovadores",
 				description:
-					"Utilizamos fibras naturais, materiais reciclados e compostos ecológicos de última geração.",
+					"Utilizamos fibras naturais de última geração.",
 				icon: "Recycle",
 			},
 			{

@@ -7,13 +7,13 @@ import { ContactCTA } from "@/components/contact-cta";
 
 export default function PedrasPage() {
 	const categoryData = {
-		title: "Pedras Ecológicas",
+		title: "Pedras",
 		description: "Beleza natural e sustentabilidade para seus projetos",
 		image: "/background-header-pedras.jpg?height=1080&width=1920",
 		summary: {
 			title: "Pedras que Unem Natureza e Inovação",
 			description:
-				"Nossa linha de pedras ecológicas oferece a beleza e textura das pedras naturais com o compromisso ambiental que você procura. Fabricadas a partir de materiais reciclados e técnicas sustentáveis, nossas pedras são a escolha perfeita para quem busca autenticidade sem impacto ambiental.",
+				"Nossa linha de pedras oferece a beleza e textura das pedras naturais com o compromisso ambiental que você procura. Fabricadas a partir de materiais reciclados e técnicas sustentáveis, nossas pedras são a escolha perfeita para quem busca autenticidade sem impacto ambiental.",
 			features: [
 				"Aparência idêntica à pedra natural",
 				"Menor peso e maior facilidade de instalação",
@@ -26,7 +26,7 @@ export default function PedrasPage() {
 			{
 				title: "Sustentabilidade Real",
 				description:
-					"Nossas pedras ecológicas reduzem a necessidade de extração mineral, preservando paisagens naturais e ecossistemas.",
+					"Nossas pedras reduzem a necessidade de extração mineral, preservando paisagens naturais e ecossistemas.",
 				icon: "Leaf",
 			},
 			{

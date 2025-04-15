@@ -9,7 +9,7 @@ import { ComplementaryProducts } from "@/components/complementary-products";
 export default function BiombosDivisoriasPage() {
 	// Dados específicos para a página de Biombos e Divisórias
 	const categoryData = {
-		title: "Biombos e Divisórias Ecológicas",
+		title: "Biombos e Divisórias",
 		description:
 			"Soluções sustentáveis para separação de ambientes com elegância e funcionalidade",
 		image: "/background-header-biombos-divisorias.jpg?height=1080&width=1920",
