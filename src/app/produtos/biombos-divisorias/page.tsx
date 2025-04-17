@@ -114,6 +114,22 @@ export default function BiombosDivisoriasPage() {
 				image: "/farani.jpg?height=600&width=800",
 				location: "Ilhéus, BA",
 			},
+			{
+				id: 3,
+				title: "Porta Carpiso entrada 2023",
+				description:
+					"Porta de entrada com design moderno e elegante, perfeita para qualquer ambiente.",
+				image: "/porta-carpiso.jpg?height=600&width=800",
+				location: "Ilhéus, BA",
+			},
+			{
+				id: 4,
+				title: "Deck madeira ecológica 2023",
+				description:
+                    "Deck de madeira ecológica, ideal para áreas externas, proporcionando beleza e resistência.",
+				image: "/deck-madeira-ecologica.jpg?height=600&width=800",
+				location: "Ilhéus, BA",
+			},
 		],
 	};
 
