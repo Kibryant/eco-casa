@@ -24,7 +24,7 @@ const stats = [
 
 const highlights = [
 	{
-		title: "Soluções Sustentáveis:",
+		title: "Confiança garantida:",
 		description:
 			"Representamos marcas renomadas, como Sincol e Carpiso, garantindo produtos ecológicos e de alta performance",
 	},
